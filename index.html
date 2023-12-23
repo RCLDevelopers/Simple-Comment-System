@@ -1,0 +1,41 @@
+
+<!--Developed by www.rashtechcomputicslab.com Team-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="comment-container">
+    <h2>Comments</h2>
+    <div id="comments"></div>
+
+	
+</div>  
+
+<div class="form-container">
+    <h2>Add a Comment</h2>
+    <form id="commentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" required></textarea>
+
+        <button type="button" onclick="submitComment()">Submit</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+<!--Developed by www.rashtechcomputicslab.com Team-->
